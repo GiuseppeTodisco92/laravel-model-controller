@@ -16,11 +16,10 @@ class MovieController extends Controller
 
     public function show($id)
     {
-        // SELECT * FROM books WHERE id = $id
-        // $book = Book::where('id', $id)->first();
-        $movie = Movie::find($id);
         
-        return view('show', compact('movie'));
+        $movie = Movie::find($id);
+        $movies = Movie::all();
+        return view('show', compact('movie'),compact('movies'));
     }
 
 }

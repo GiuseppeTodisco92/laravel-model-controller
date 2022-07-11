@@ -1,0 +1,33 @@
+.film-selected-container{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    .btn{
+        font-size: 30px;
+        padding: 10px;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    .film-selected{
+        text-align: center;
+
+        .img-style{
+            width: 420px;
+        }
+    }
+    .film-box-list{
+        
+        border-left: 3px solid black;
+        padding-left: 2.5rem;
+
+        .film-list{
+            list-style: none;
+            padding: 10px 0px;
+        }
+    }
+    
+}

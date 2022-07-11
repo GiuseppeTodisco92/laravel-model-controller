@@ -1,0 +1,78 @@
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0px;
+}
+
+.list-home-style {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.list-home-style .card-film {
+  width: calc(33.3333333333% - 1.875rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-home-style .card-film .img-style {
+  width: 200px;
+}
+
+.list-home-style .list-home {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.list-home-style .list-home a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.film-selected-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.film-selected-container .btn {
+  font-size: 30px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.film-selected-container .film-selected {
+  text-align: center;
+}
+
+.film-selected-container .film-selected .img-style {
+  width: 420px;
+}
+
+.film-selected-container .film-box-list {
+  border-left: 3px solid black;
+  padding-left: 2.5rem;
+}
+
+.film-selected-container .film-box-list .film-list {
+  list-style: none;
+  padding: 10px 0px;
+}
+
